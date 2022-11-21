@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+</head>
+<body class="w-full h-screen flex flex-col justify-center items-center">
+    <div class="-mt-36 -mb-32">
+        <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_jbrw3hcz.json" background="transparent"  speed="1"  style="width: 550px; height: 550px;" loop autoplay></lottie-player>
+    </div>
+    <div class="text-center items-center flex flex-col gap-4">
+        <h1 class="text-4xl font-bold">Congrats!! <%= name %></h1>
+        <p class="text-lg">Your email is already activated, now you can use your account</p>
+        <button class="bg-green-500 text-white text-md font-semibold px-6 py-3 rounded-full w-48"><a href="http://127.0.0.1:5173/login" target="_blank"> Go to Login Page</a></button>
+    </div>
+</body>
+</html>
