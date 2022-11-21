@@ -34,7 +34,7 @@ router.post('/', async (req, res) => {
                   <p>Saya Kukuh Satrio dari Tim Crypverse mengucapkan terimakasih telah mendaftar akun crypverse. Silahkan aktivasi akun anda dengan menekan tombol aktivasi akun dibawah</p>
                   <p>Apabila ada permasalahan atau ada yang dibingungkan bisa menghubungi email info.crypverse@gmail.com atau bisa langsung membalas email ini</p>
                   <br>
-                  <button style="background-color: #BCF2C0; padding: 14px 32px; border-radius: 500px; border: none;"><a href="http://localhost:3000/email-activation/${newUser.id}" style=" color: #0B1E37; text-decoration: none; font-weight: 500;">Aktivasi Akun</a></button>
+                  <button style="background-color: #BCF2C0; padding: 14px 32px; border-radius: 500px; border: none;"><a href="https://api-crypverse.vercel.app/email-activation/${newUser.id}" style=" color: #0B1E37; text-decoration: none; font-weight: 500;">Aktivasi Akun</a></button>
                   <br>
                   <div>
                       <p>Sekian Terima kasih</p>
